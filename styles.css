@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    background-image: url('IMG_4463.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    position: absolute; /* Абсолютное позиционирование */
+    top: 0; /* Расположение сверху */
+    right: 0; /* Расположение справа */
+    padding: 10px; /* Отступы от края */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.info h1::first-letter {
+    color: red;
+}
+
+.info p {
+   margin-bottom: 20px;
+}
+
+ul li img {
+   width: 200px; 
+   padding: 10px;
+}
+
+.social-links a {
+   text-decoration: none;
+   color: red; 
+}
+
+.social-links a:hover {
+   color: green; /* Цвет при наведении */
+}
+
+social-links a visited { 
+color blue; / * Цвет посещённой ссылки * /
+}
+
+.green-background {
+    background-color: #4e7536; /* Зеленый цвет */
+    background-image: none; /* Убираем изображение */
+}
